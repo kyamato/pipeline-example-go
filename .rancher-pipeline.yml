@@ -25,3 +25,4 @@ notification:
     notifier: c-xbsfq:n-l6nr7
   condition:
   - Success
+  - Failed
