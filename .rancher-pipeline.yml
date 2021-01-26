@@ -19,3 +19,10 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
+notification:
+  recipients:
+  - recipient: '#kyamato-041'
+    notifier: c-xbsfq:n-p6stm
+  condition:
+  - Success
+  - Failed
