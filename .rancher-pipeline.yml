@@ -21,7 +21,7 @@ stages:
       path: ./deployment.yaml
 notification:
   recipients:
-  - recipient: '#alert-voyager-stg'
+  - recipient: alert-test-notify
     notifier: c-xbsfq:n-l6nr7
   condition:
   - Success
