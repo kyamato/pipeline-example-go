@@ -19,4 +19,9 @@ stages:
   steps:
   - applyYamlConfig:
       path: ./deployment.yaml
-notification: {}
+notification:
+  recipients:
+  - recipient: '#alert-voyager-stg'
+    notifier: c-xbsfq:n-l6nr7
+  condition:
+  - Success
