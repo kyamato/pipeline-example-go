@@ -21,7 +21,7 @@ stages:
       path: ./deployment.yaml
 notification:
   recipients:
-  - recipient: '#kyamato-041'
+  - recipient: '#alert-voyager-test'
     notifier: c-xbsfq:n-p6stm
   condition:
   - Success
